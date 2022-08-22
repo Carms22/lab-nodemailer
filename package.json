@@ -25,8 +25,8 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "star":"node app.js",
-    "dev": " app.js nodemon -e hbs, js, css"
+    "start": "node app.js",
+    "dev": "nodemon app.js -e hbs,js,css"
   },
   "repository": {
     "type": "git",
